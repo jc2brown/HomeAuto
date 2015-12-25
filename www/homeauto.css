@@ -1,0 +1,167 @@
+
+
+div { 
+	position:absolute;
+	/*border:1px #f00 solid;*/
+}
+
+body {
+	position:relative;
+	font-family:sans-serif;
+	color:#ccc;
+	max-width:640px;
+	background-color:#333;
+}
+
+
+
+#topbar {
+	z-index:1000;
+	position:fixed;
+	display:inline-block;
+	top:-6px;
+	height:47px;
+	width:100%;
+	font-size:20px;
+	color:#ccc;
+	background-color:#222;		
+	/*text-align:center;*/
+	padding-left:0.5em;
+	/*border-bottom:2px #555 solid;*/
+	visibility:hidden;
+}
+
+.title {	
+	margin:auto;
+	margin-top:18px;
+	display:inline-block;
+}	
+
+
+
+#main {
+	width:100%;
+	padding-top:0px;
+	margin-top:0px;/*42px;*/
+	margin-bottom:0px;
+	margin-right:1em;
+}
+
+
+
+#offline {
+	width:100%;
+	padding-top:0px;
+	margin-top:44px;
+	margin-bottom:0px;
+	margin-left:0.5em;
+}
+
+#offline span {
+	position:relative;
+	top:16px;
+	left:10px;
+	font-size:20px;
+	display:inline-block; 
+	vertical-align:middle;
+}
+	
+
+.item {
+	position:relative;
+	border:none;
+	border-bottom:1px #444 solid;
+	text-align:left;
+	padding:0;
+	margin-right:0;
+	display:block;
+	width:100%;
+	height:50px;
+	font-size:100%;
+	cursor: pointer;	
+}
+	
+	
+	
+.leftlabel {
+	left:0px;
+	/*right:160px;*/
+	height:50px;
+	width:50%;
+}
+
+.leftlabel span { 
+	position:relative;
+	top:16px;
+	left:10px;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	display:inline-block; 
+	vertical-align:middle;
+}
+
+
+
+.rightwidget {
+	right:0px;
+	height:50px;
+	width:50%;
+	font-family: 'Khula', sans-serif !important;
+	font-weight:normal;
+	font-size:0px !important;
+}
+
+
+.onoffswitch {
+	position:relative;
+	top:8px;
+    margin: 0 auto;
+}
+
+.rangeslider {
+	width:100%;
+	height:100%;
+    margin: 0 auto;
+}
+
+input[type=range] {
+    margin: 0 auto;
+	width:80%;
+	max-width:120px;
+	position:absolute;
+	right:10%;
+	height:100%;
+}
+
+
+div.button {
+	position:absolute;
+	height:64%;
+    margin: 0 auto 0 auto;
+	top:5px;
+	width:100%;
+}
+
+input[type=button] {
+	display:block;
+    margin: 0 auto 0 auto;
+	top:4px;
+	font-size:0px;
+	position:relative;
+	width:80px;/*45%;*/
+	max-width:80px;
+	margin-right:auto;
+	margin-left:auto;
+	/*right:20%;*/
+	height:100%;
+}
+
+
+
+#bottombar {
+	position:fixed;
+	bottom:0px;
+	height:0px;
+	width:100%;
+	background-color:#667;
+}

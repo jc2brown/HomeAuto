@@ -1,0 +1,6 @@
+#!/bin/bash
+
+killall homeauto
+sleep 3
+sync
+reboot

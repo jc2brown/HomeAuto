@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# 2016-01-01 v1.0.0
+/reset.css
+
+NETWORK:
+/homeauto.css
+/switch.css
+/slider.css
+/button.css
+/homeauto.js
+/index.html
+*
+
+FALLBACK:
+/ /offline.html
+
